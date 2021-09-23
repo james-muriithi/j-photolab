@@ -14,7 +14,7 @@ a{
 
 /* header */
 header{
-    padding: 15px 5px 5px;
+    padding: 10px 5px 5px;
     position: absolute;
     z-index: 2;
     width: 100%;
@@ -34,16 +34,39 @@ header .header-info{
 }
 
 .header-menu .menu-item{
-    padding: 10px 15px;
+    padding: 5px 15px;
     
 }
 
 .header-menu .menu-item a{
     color: #111827;
     font-weight: 600;
+    transition: all 0.2s;
 }
 
+/* pseudo classes */
+.header-menu .menu-item a:visited,
 .header-menu .menu-item a:hover{
     color: #d97706;
 }
 
+/* home section */
+#home{
+    height: 100%;
+    width: 100%;
+    background: url("images/home-bg.jpg") center center / cover no-repeat;
+    color: #f2f2f2;
+
+    display: flex;
+    align-items: center;
+}
+
+#home .home-content{
+    padding-left: 30px;
+    opacity: 1;
+}
+
+#home .home-content h1{
+    line-height: 30px;
+    font-size: 50px;
+}
