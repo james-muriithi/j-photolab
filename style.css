@@ -1,37 +1,38 @@
 /* global css */
-body,
-html{
+
+body, html {
     margin: 0px;
-    font-family:  Roboto, sans-serif;
-    background-color: #fff;
+    font-family: Roboto, sans-serif;
+    background-color: #f3f2ef;
     height: 100%;
     overflow-x: hidden;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
 /* header */
-header{
-    padding: 10px 5px 5px 15px;
-    position: absolute;
-    z-index: 2;
+
+header {
+    position: relative;
     width: 100%;
-    /* background-color: #fff; */
 }
 
-header .header-info{
+header .header-info {
+    padding: 10px 5px 5px 15px;
     display: flex;
     align-items: center;
+    position: absolute;
+    width: 100%;
 }
 
-.header-info .company-name{
+.header-info .company-name {
     margin: 0 0 0 20px;
     color: rgb(239, 230, 230);
 }
 
-.header-menu{
+.header-menu {
     margin-left: auto;
     list-style: none;
     display: flex;
@@ -39,12 +40,11 @@ header .header-info{
     margin-right: 30px;
 }
 
-.header-menu .menu-item{
+.header-menu .menu-item {
     margin: 5px;
-    
 }
 
-.header-menu .menu-item a{
+.header-menu .menu-item a {
     color: rgb(215, 193, 193);
     font-weight: 600;
     transition: all 0.2s;
@@ -52,45 +52,47 @@ header .header-info{
 }
 
 /* pseudo classes */
-.header-menu .menu-item a:visited{
+
+.header-menu .menu-item a:visited {
     text-decoration: underline;
 }
-.header-menu .menu-item a:hover{
+
+.header-menu .menu-item a:hover {
     color: #fff;
 }
 
 /* home section */
-#home{
+
+#home {
     height: 100%;
     width: 100%;
     background: url("images/home-bg.jpg") center center / cover no-repeat;
     color: #f2f2f2;
-
     display: flex;
     align-items: center;
 }
 
-#home .home-content{
+#home .home-content {
     padding-left: 30px;
     opacity: 1;
     max-width: 500px;
 }
 
-#home .home-content .company-name{
+#home .home-content .company-name {
     line-height: 30px;
     font-size: 50px;
 }
 
-#home .home-content .description{
+#home .home-content .description {
     margin-top: 50px;
     font-size: 45px;
 }
 
-#home .home-content .description+p span{
+#home .home-content .description+p span {
     font-size: 40px;
 }
 
-#home .home-content button.make-appointment{
+#home .home-content button.make-appointment {
     margin-top: 30px;
     margin-left: 10px;
     padding: 15px 20px;
@@ -105,7 +107,86 @@ header .header-info{
     cursor: pointer;
 }
 
-#home .home-content button.make-appointment:hover{
+#home .home-content button.make-appointment:hover {
     color: #fff;
     border-color: #fff;
+}
+
+/* services section */
+
+#services {
+    margin: 50px 0;
+}
+
+.section-title {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(17, 24, 39);
+}
+
+.section-title span {
+    border-bottom: 1px solid #000;
+}
+
+.service-cards {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+.service-card {
+    background-color: #fff;
+    width: 300px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 15px;
+}
+
+.service-card .service-title {
+    font-size: 20px;
+    color: rgb(17, 24, 39);
+    padding-bottom: 5px;
+    /* border-bottom: 1px solid #d3d0c5; */
+    margin-bottom: 10px;
+}
+
+.service-card .price {
+    font-size: 50px;
+    font-weight: 300;
+    color: #101623;
+}
+
+.service-card .pricing-services {
+    margin-top: 10px;
+    padding-left: 0px;
+    list-style: none;
+    color: rgb(17, 24, 39);
+    font-weight: normal;
+    overflow: hidden;
+}
+
+.service-card .pricing-services li {
+    padding: 1em;
+}
+
+.service-card .pricing-services li:not(:last-child) {
+    border-bottom: 1px solid #d3d0c5;
+}
+
+.service-card .get-service button{
+    margin-top: 30px;
+    margin-left: 10px;
+    padding: 15px 20px;
+    color: rgb(215, 193, 193);
+    background-color: transparent;
+    border: 2px solid rgb(215, 193, 193);
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 550;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    cursor: pointer;
 }
