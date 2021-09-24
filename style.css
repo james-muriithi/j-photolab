@@ -203,3 +203,75 @@ header .header-info {
     color: #999999;
     border: 2px solid #999999;
 }
+
+
+/* gallery section */
+
+#gallery {
+    padding: px 0;
+}
+
+.gallery-images {
+    padding: 10px 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#gallery .gallery-images .image {
+    width: 250px;
+    height: 270px;
+    margin: 5px 10px 10px;
+}
+
+#gallery .gallery-images .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+/* make appointment */
+
+#make-appointment {
+    padding: 50px 0;
+}
+
+.appointment {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* footer */
+
+footer {
+    padding: 20px;
+    background-color: #181818;
+    color: rgb(215, 193, 193);
+}
+
+footer .footer-upper {
+    display: flex;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+footer .company-name {
+    margin: 0 0 0 15px;
+    font-size: 18px;
+}
+
+.footer-upper .social-links {
+    margin-left: auto;
+}
+
+.footer-lower {
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(190, 175, 175);
+    font-size: 14px;
+}
