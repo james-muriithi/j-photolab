@@ -269,6 +269,10 @@ footer .company-name {
     margin-left: auto;
 }
 
+.footer-upper .social-links .social-link {
+    padding: 0 10px;
+}
+
 .footer-lower {
     padding-top: 20px;
     text-align: center;
