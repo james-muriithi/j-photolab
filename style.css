@@ -146,6 +146,7 @@ header .header-info {
     padding-left: 20px;
     padding-right: 20px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .service-card {
@@ -155,6 +156,7 @@ header .header-info {
     border-radius: 10px;
     text-align: center;
     margin: 0 15px;
+    margin-top: 5px;
 }
 
 .service-card .service-title {
@@ -240,6 +242,39 @@ header .header-info {
 .appointment {
     display: flex;
     justify-content: center;
+}
+
+.appointment-form {
+    width: 80%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.input-control {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+    font-weight: 550;
+}
+
+input {
+    display: block;
+    padding: 9px 16px;
+    line-height: 20px;
+    width: 90%;
+    border: 1px solid #b5b5b5;
+    border-radius: 5px;
+    color: #222;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+input:focus {
+    outline: none;
 }
 
 
