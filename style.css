@@ -22,6 +22,31 @@ button {
     cursor: pointer;
 }
 
+.section-title {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(17, 24, 39);
+}
+
+.section-title span {
+    padding: 5px 5px;
+    border-bottom: 1px solid #000;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.card {
+    background-color: #fff;
+    width: 300px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px 15px 0;
+}
+
 
 /* header */
 
@@ -129,18 +154,6 @@ header .header-info {
     margin: 50px 0;
 }
 
-.section-title {
-    font-size: 23px;
-    font-weight: bold;
-    text-align: center;
-    color: rgb(17, 24, 39);
-}
-
-.section-title span {
-    padding: 5px 5px;
-    border-bottom: 1px solid #000;
-}
-
 #services .intro {
     width: 100%;
     color: #181818;
@@ -164,13 +177,8 @@ header .header-info {
 }
 
 .service-card {
-    background-color: #fff;
     width: 300px;
-    padding: 15px 20px;
-    border-radius: 10px;
     text-align: center;
-    margin: 0 15px;
-    margin-top: 5px;
 }
 
 .service-card .service-title {
@@ -376,10 +384,6 @@ a.email {
 
 a.email:hover {
     color: rgb(215, 193, 193);
-}
-
-.text-center {
-    text-align: center;
 }
 
 .footer-lower {
