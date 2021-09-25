@@ -143,7 +143,7 @@ header .header-info {
 
 #services .intro {
     width: 100%;
-    color: rgb(17, 24, 39);
+    color: #181818;
     text-align: center;
 }
 
@@ -152,7 +152,7 @@ header .header-info {
     margin-left: auto;
     margin-right: auto;
     line-height: 25px;
-    font-weight: 500;
+    font-size: 16px;
 }
 
 .service-cards {
@@ -250,14 +250,27 @@ header .header-info {
 /* about us */
 
 #about-us {
-    padding: 50px 0;
+    padding: 50px 0 0;
+}
+
+#about-us .description {
+    line-height: 30px;
+    width: 100%;
+}
+
+#about-us .description p {
+    color: #181818;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
 }
 
 
 /* make appointment */
 
 #make-appointment {
-    padding: 50px 0;
+    padding: 20px 0;
 }
 
 .appointment {
