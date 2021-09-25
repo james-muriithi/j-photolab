@@ -354,6 +354,25 @@ footer .company-name {
     padding: 0 10px;
 }
 
+.author-details {
+    /* text-align: right; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.author-details .user-avatar {
+    border-radius: 50%;
+}
+
+.author-details p {
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.text-center {
+    text-align: center;
+}
+
 .footer-lower {
     padding-top: 20px;
     text-align: center;
