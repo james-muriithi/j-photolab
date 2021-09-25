@@ -347,7 +347,7 @@ footer .company-name {
 }
 
 .footer-upper .social-links {
-    margin-left: auto;
+    margin-top: 20px;
 }
 
 .footer-upper .social-links .social-link {
@@ -355,7 +355,7 @@ footer .company-name {
 }
 
 .author-details {
-    /* text-align: right; */
+    margin-left: auto;
     display: flex;
     justify-content: flex-end;
 }
@@ -367,6 +367,15 @@ footer .company-name {
 .author-details p {
     font-size: 13px;
     margin-top: 4px;
+}
+
+a.email {
+    color: #68c3a3;
+    text-decoration: underline;
+}
+
+a.email:hover {
+    color: rgb(215, 193, 193);
 }
 
 .text-center {
