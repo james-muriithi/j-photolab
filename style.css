@@ -259,6 +259,7 @@ label {
     display: block;
     margin: 5px 0;
     font-weight: 550;
+    font-size: 13px;
 }
 
 input {
@@ -275,6 +276,17 @@ input {
 
 input:focus {
     outline: none;
+}
+
+.submit-form {
+    text-align: center;
+    padding-top: 15px;
+}
+
+#submit-btn {
+    color: rgb(90, 85, 85);
+    border: 2px solid rgb(126, 121, 121);
+    font-weight: 550;
 }
 
 
