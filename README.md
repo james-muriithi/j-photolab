@@ -14,6 +14,10 @@
 1. HTML
 1. CSS
 
+## Design
+## A simple design of the website
+![Design](./design.jpg)
+
 ## Screenshot
 ![screenshot](./screenshot.png)
 ## Contact Details
