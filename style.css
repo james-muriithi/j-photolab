@@ -255,6 +255,29 @@ header .header-info {
 }
 
 
+/* team */
+
+#team {
+    padding: 50px 0 0;
+}
+
+.members {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.member .user-avatar {
+    border-radius: 50%;
+}
+
+.member .position {
+    font-size: 15px;
+}
+
+
 /* about us */
 
 #about-us {
